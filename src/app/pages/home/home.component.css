@@ -1,4 +1,13 @@
 .articles {
   margin-top: 1rem;
+
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
 }
