@@ -1,5 +1,4 @@
 .container__content {
-  border: 1px solid red;
   width: 100%;
   height: 100vh;
 
@@ -8,6 +7,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container__content > a {
+  margin-bottom: 1rem;
 }
 
 .content__over > img {

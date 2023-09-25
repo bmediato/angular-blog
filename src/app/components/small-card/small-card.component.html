@@ -4,7 +4,9 @@
       <img src={{photoCover}} alt="" />
     </div>
     <div class="smal-card__title">
-      <p>{{cardTitle}}</p>
+      <h1>
+        <a [routerLink]="['content', id]">{{cardTitle}}</a>
+      </h1>
     </div>
   </div>
 
