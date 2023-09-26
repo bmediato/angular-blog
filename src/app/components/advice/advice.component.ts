@@ -20,6 +20,7 @@ export class AdviceComponent implements OnInit {
   getAdvice() {
     this.adviceService.getAdvice().subscribe((data: Advice) => {
       this.advice = data.slip.advice;
+      console.log(this.advice)
     })
   }
 }
