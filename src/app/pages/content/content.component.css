@@ -7,17 +7,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .container__content > a {
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.container__content > a >img {
+  width: 40px;
+  margin-right: 1rem;
+  height: auto;
 }
 
 .content__over > img {
-  border: 5px solid gray;
+  border: 3px solid gray;
   border-radius: 0.5rem;
-  width: 500px;
-  height: 300px;
+  width: 400px;
+  height: 350px;
   min-width: 500px;
 }
 
@@ -26,5 +36,10 @@
 }
 
 .content__description > p{
-  color: gray;
+  color: rgb(173, 172, 172);
+  margin: 0 3rem 0 3rem;
+  font-size: 1.5rem;
+  background-color: #4D4D4D;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
