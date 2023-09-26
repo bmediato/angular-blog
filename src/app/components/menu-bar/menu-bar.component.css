@@ -1,12 +1,14 @@
 .menu-bar-list > ul{
   display: flex;
   flex-direction: row;
+  color: #01354A;
 }
 
 .menu-bar-list > ul > li {
   margin-right: 20px;
   list-style: none;
   font-size: 1.25rem;
+  color: #01354A;
 }
 
 .menu-bar-list > ul> li:hover{
@@ -21,6 +23,7 @@
   align-items: center;
   margin-left: 10vh;
   margin-right: 10vh;
+  color: #01354A;
 }
 
 .menu-bar-image > img{
