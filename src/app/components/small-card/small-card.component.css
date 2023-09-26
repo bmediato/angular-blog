@@ -11,6 +11,7 @@
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  border-radius: 0.5rem;
 }
 
 .smal-card__title {

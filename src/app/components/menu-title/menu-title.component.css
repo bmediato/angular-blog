@@ -16,11 +16,9 @@
   color: #E82F3E;
  }
 
- /* .menu-title-hr {
-  color: #E82F3E;
- }
-
- hr {
-  color: #D1D1D1;
-  border-width: 10px;
- } */
+.menu-title-container > h1 > img {
+  width: 6vh;
+  height: 6vh;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
